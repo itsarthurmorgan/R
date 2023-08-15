@@ -1,0 +1,7 @@
+x <- c("arthur", "morgan", "john", "marston", "billy", "batson")
+print(x)
+name_fact <- factor(x)
+print(name_fact)
+print(name_fact[3])
+print(name_fact[3:6])
+print(name_fact[c(TRUE, FALSE, TRUE, TRUE, FALSE, TRUE)])

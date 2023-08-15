@@ -1,0 +1,7 @@
+df1 = data.frame(x=c(0,1,2),y=c(2,3,5))
+df2 = data.frame(x=c(2,5,7),y=c(9,10,11))
+lst = list(df1,df2)
+print("new list: ")
+print(lst)
+print(lst[[1]])
+print(lst[[2]])
